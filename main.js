@@ -10,5 +10,19 @@ document
 .addEventListener('click', e => {
   e.preventDefault();
   document.querySelector('header').style.display = "block";
-  document.querySelector('#intro').style.display = "unset";
+  document.querySelector('#intro').style.display = "none";
+});
+document
+.querySelector('#workBttn')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "none";
+  document.querySelector('#work').style.display = "unset";
+});
+document
+.querySelector('#workClose')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "block";
+  document.querySelector('#work').style.display = "none";
 });
