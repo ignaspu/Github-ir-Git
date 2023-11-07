@@ -319,4 +319,71 @@ main #intro #xIcon:hover {
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+#about {
+  display: none;
+}
+#about div:first-child {
+  width: 70%;
+  background-color: #1c2022;
+  margin: 0 auto;
+  padding: 0 30px 10px 30px;
+  position: relative;
+  top: 25px;
+}
+#about div:first-child hr {
+  width: 130px;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 2rem;
+}
+#about div:first-child #close {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+#about div:first-child #aboutClose {
+  width: 2rem;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+#about div:first-child h1 {
+  margin: 0;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+}
+#about div:first-child .videoDiv {
+  width: 100%;
+}
+#about div:first-child .videoDiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+}
+#about div:first-child p {
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+}
+#about #aboutClose {
+  transition: transform 0.5s;
+  margin-top: 5px;
+}
+#about #aboutClose:hover {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 768px) {
+  main #about div:first-child {
+    top: 5rem;
+  }
+  main #about div:first-child p {
+    font-size: 1rem;
+  }
+  main #about div:first-child .videoDiv #videoTa {
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=main.css.map */
