@@ -45,7 +45,7 @@ header div.gem span {
   height: 3.5rem;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid white;
+  border: 2px solid white;
   position: relative;
 }
 header div.gem i {
@@ -118,7 +118,7 @@ header .wrapper4 ol {
 header .wrapper4 li {
   list-style: none;
   text-align: center;
-  border: 1px solid white;
+  border: 2px solid white;
   padding-left: 0;
   padding: 8px;
 }
