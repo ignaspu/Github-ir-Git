@@ -107,6 +107,9 @@ header .container a {
   text-decoration-color: rgba(255, 255, 255, 0.689);
   color: white;
 }
+header .container a:hover {
+  color: lightblue;
+}
 header .wrapper2 {
   display: flex;
   justify-content: center;
