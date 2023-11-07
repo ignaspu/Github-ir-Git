@@ -109,6 +109,7 @@ header{
   .wrapper4{
     display: flex;
     justify-content: center;
+    width: 100%;
     ol{
       width: 95%;
       padding-inline-start: 0px;
@@ -129,6 +130,47 @@ header{
     }
     li:first-child{
       margin-top:0;
+    }
+  }
+}
+@media (min-width: 768px) {
+  header{
+    .wrapper{
+      .container{
+        p{
+          text-align: center;
+        }
+      }
+    }
+    .wrapper4{
+      display: flex;
+      justify-content: center;
+      ol{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        li{
+          display: inline-block;
+          width: 10rem;
+        }
+      }
+    }
+    div.gem{
+      height: 38%;
+      top: -1%;
+      align-items:flex-end;
+      span{
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+      i{
+        font-size: 2rem;
+        top: 35%;
+        left: 35%;
+      }
+    }
+    .vl{
+      height: 60px;
     }
   }
 }

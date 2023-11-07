@@ -108,6 +108,7 @@ header .vl2 {
 header .wrapper4 {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 header .wrapper4 ol {
   width: 95%;
@@ -129,4 +130,40 @@ header .wrapper4 li a {
 }
 header .wrapper4 li:first-child {
   margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  header .wrapper .container p {
+    text-align: center;
+  }
+  header .wrapper4 {
+    display: flex;
+    justify-content: center;
+  }
+  header .wrapper4 ol {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header .wrapper4 ol li {
+    display: inline-block;
+    width: 10rem;
+  }
+  header div.gem {
+    height: 38%;
+    top: -1%;
+    align-items: flex-end;
+  }
+  header div.gem span {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  header div.gem i {
+    font-size: 2rem;
+    top: 35%;
+    left: 35%;
+  }
+  header .vl {
+    height: 60px;
+  }
 }/*# sourceMappingURL=main.css.map */
