@@ -26,3 +26,17 @@ document
   document.querySelector('header').style.display = "block";
   document.querySelector('#work').style.display = "none";
 });
+document
+.querySelector('#aboutBttn')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "none";
+  document.querySelector('#about').style.display = "unset";
+});
+document
+.querySelector('#aboutClose')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "block";
+  document.querySelector('#about').style.display = "none";
+});
