@@ -190,3 +190,55 @@ header{
     }
   }
 }
+main{
+  color: white;
+  font-family: 'Roboto';
+  #intro{
+    display: none;
+    div:first-child{
+      width: 70%;
+      max-height: 70%;
+      background-color: #1c2022;
+      margin: 0 auto;
+      padding: 0 30px 10px 30px;
+      position: relative;
+      top: 20px;
+      hr{
+        width: 130px;
+        text-align: left;
+        margin-left: 0;
+      }
+      #close{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .bi-x-lg{
+        padding-top: 10px;
+        font-size: 1.5rem;
+      }
+      h1{
+        margin: 0;
+        letter-spacing: .3rem;
+        font-weight: 400;
+      }
+      .videoDiv{
+        width: 100%;
+        video{
+          width: 100%;
+          height: auto;
+        }
+      }
+      p{
+        font-weight: 300;
+        line-height: 1.5rem;
+        font-size: 0.75rem;
+      }
+    }
+    #closeIcon{
+      transition: transform 0.5s;
+    }
+    #closeIcon:hover{
+      transform: rotate(90deg);
+    }
+  }
+}

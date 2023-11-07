@@ -182,4 +182,56 @@ header .wrapper4 li:first-child {
   header .vl {
     height: 60px;
   }
+}
+main {
+  color: white;
+  font-family: "Roboto";
+}
+main #intro {
+  display: none;
+}
+main #intro div:first-child {
+  width: 70%;
+  max-height: 70%;
+  background-color: #1c2022;
+  margin: 0 auto;
+  padding: 0 30px 10px 30px;
+  position: relative;
+  top: 20px;
+}
+main #intro div:first-child hr {
+  width: 130px;
+  text-align: left;
+  margin-left: 0;
+}
+main #intro div:first-child #close {
+  display: flex;
+  justify-content: flex-end;
+}
+main #intro div:first-child .bi-x-lg {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+main #intro div:first-child h1 {
+  margin: 0;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+}
+main #intro div:first-child .videoDiv {
+  width: 100%;
+}
+main #intro div:first-child .videoDiv video {
+  width: 100%;
+  height: auto;
+}
+main #intro div:first-child p {
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+}
+main #intro #closeIcon {
+  transition: transform 0.5s;
+}
+main #intro #closeIcon:hover {
+  transform: rotate(90deg);
 }/*# sourceMappingURL=main.css.map */
