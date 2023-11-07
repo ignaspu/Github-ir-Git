@@ -1,0 +1,1 @@
+Git ir Github atsiskaitymas. Užduotis: atkartoti pateiktą puslapį.
