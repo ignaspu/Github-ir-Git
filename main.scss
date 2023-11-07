@@ -107,6 +107,9 @@ header{
       text-decoration-color: rgba(255, 255, 255, 0.689);
       color: white;
     }
+    a:hover{
+      color: lightblue;
+    }
   }
   .wrapper2{
     display: flex;
@@ -163,6 +166,9 @@ header{
         li{
           display: inline-block;
           width: 10rem;
+        }
+        li:hover{
+          background-color: rgba(255, 255, 255, 0.252);
         }
       }
     }
