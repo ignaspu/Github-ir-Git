@@ -40,3 +40,17 @@ document
   document.querySelector('header').style.display = "block";
   document.querySelector('#about').style.display = "none";
 });
+document
+.querySelector('#contactBttn')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "none";
+  document.querySelector('#contact').style.display = "unset";
+});
+document
+.querySelector('#contactClose')
+.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('header').style.display = "block";
+  document.querySelector('#contact').style.display = "none";
+});
