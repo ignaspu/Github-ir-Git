@@ -198,7 +198,7 @@ main #intro div:first-child {
   top: 25px;
 }
 main #intro div:first-child hr {
-  width: 130px;
+  width: 110px;
   text-align: left;
   margin-left: 0;
   margin-bottom: 2rem;
@@ -239,24 +239,10 @@ main #intro #xIcon:hover {
   transform: rotate(90deg);
 }
 
-@media (min-width: 768px) {
-  main #intro div:first-child {
-    top: 5rem;
-  }
-  main #intro div:first-child p {
-    font-size: 1rem;
-  }
-  main #intro div:first-child .videoDiv #videoTa {
-    width: 100%;
-    height: 250px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-#work {
+#work, #about, #contact {
   display: none;
 }
-#work div:first-child {
+#work div:first-child, #about div:first-child, #contact div:first-child {
   width: 70%;
   background-color: #1c2022;
   margin: 0 auto;
@@ -264,123 +250,56 @@ main #intro #xIcon:hover {
   position: relative;
   top: 25px;
 }
-#work div:first-child hr {
-  width: 130px;
+#work div:first-child hr, #about div:first-child hr, #contact div:first-child hr {
+  width: 110px;
   text-align: left;
   margin-left: 0;
   margin-bottom: 2rem;
 }
-#work div:first-child #close {
+#work div:first-child #close, #about div:first-child #close, #contact div:first-child #close {
   margin-top: 10px;
   display: flex;
   justify-content: flex-end;
 }
-#work div:first-child #workClose {
+#work div:first-child #workClose, #work div:first-child #aboutClose, #work div:first-child #contactClose, #about div:first-child #workClose, #about div:first-child #aboutClose, #about div:first-child #contactClose, #contact div:first-child #workClose, #contact div:first-child #aboutClose, #contact div:first-child #contactClose {
   width: 2rem;
   padding-top: 10px;
   font-size: 1.5rem;
 }
-#work div:first-child h1 {
+#work div:first-child h1, #about div:first-child h1, #contact div:first-child h1 {
   margin: 0;
   letter-spacing: 0.3rem;
   font-weight: 400;
 }
-#work div:first-child .videoDiv {
+#work div:first-child .videoDiv, #about div:first-child .videoDiv, #contact div:first-child .videoDiv {
   width: 100%;
 }
-#work div:first-child .videoDiv img {
-  width: 100%;
-  height: auto;
-  border-radius: 7px;
-}
-#work div:first-child p {
-  font-weight: 300;
-  line-height: 1.5rem;
-  font-size: 0.75rem;
-}
-#work #workClose {
-  transition: transform 0.5s;
-  margin-top: 5px;
-}
-#work #workClose:hover {
-  transform: rotate(90deg);
-}
-
-@media (min-width: 768px) {
-  main #work div:first-child {
-    top: 5rem;
-  }
-  main #work div:first-child p {
-    font-size: 1rem;
-  }
-  main #work div:first-child .videoDiv #videoTa {
-    width: 100%;
-    height: 250px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-#about {
-  display: none;
-}
-#about div:first-child {
-  width: 70%;
-  background-color: #1c2022;
-  margin: 0 auto;
-  padding: 0 30px 10px 30px;
-  position: relative;
-  top: 25px;
-}
-#about div:first-child hr {
-  width: 130px;
-  text-align: left;
-  margin-left: 0;
-  margin-bottom: 2rem;
-}
-#about div:first-child #close {
-  margin-top: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-#about div:first-child #aboutClose {
-  width: 2rem;
-  padding-top: 10px;
-  font-size: 1.5rem;
-}
-#about div:first-child h1 {
-  margin: 0;
-  letter-spacing: 0.3rem;
-  font-weight: 400;
-}
-#about div:first-child .videoDiv {
-  width: 100%;
-}
-#about div:first-child .videoDiv img {
+#work div:first-child .videoDiv img, #about div:first-child .videoDiv img, #contact div:first-child .videoDiv img {
   width: 100%;
   height: auto;
   border-radius: 7px;
 }
-#about div:first-child p {
+#work div:first-child p, #about div:first-child p, #contact div:first-child p {
   font-weight: 300;
   line-height: 1.5rem;
   font-size: 0.75rem;
 }
-#about #aboutClose {
+#work #workClose, #work #aboutClose, #work #contactClose, #about #workClose, #about #aboutClose, #about #contactClose, #contact #workClose, #contact #aboutClose, #contact #contactClose {
   transition: transform 0.5s;
   margin-top: 5px;
 }
-#about #aboutClose:hover {
+#work #workClose:hover, #work #aboutClose:hover, #work #contactClose:hover, #about #workClose:hover, #about #aboutClose:hover, #about #contactClose:hover, #contact #workClose:hover, #contact #aboutClose:hover, #contact #contactClose:hover {
   transform: rotate(90deg);
 }
 
 @media (min-width: 768px) {
-  main #about div:first-child {
+  main #work div:first-child, main #about div:first-child, main #contact div:first-child, main #intro div:first-child {
     top: 5rem;
   }
-  main #about div:first-child p {
+  main #work div:first-child p, main #about div:first-child p, main #contact div:first-child p, main #intro div:first-child p {
     font-size: 1rem;
   }
-  main #about div:first-child .videoDiv #videoTa {
+  main #work div:first-child .videoDiv #videoTa, main #about div:first-child .videoDiv #videoTa, main #contact div:first-child .videoDiv #videoTa, main #intro div:first-child .videoDiv #videoTa {
     width: 100%;
     height: 250px;
     -o-object-fit: cover;
