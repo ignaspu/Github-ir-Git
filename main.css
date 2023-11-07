@@ -104,4 +104,29 @@ header .vl2 {
   border-left: 1px solid white;
   height: 44px;
   text-align: center;
+}
+header .wrapper4 {
+  display: flex;
+  justify-content: center;
+}
+header .wrapper4 ol {
+  width: 95%;
+  padding-inline-start: 0px;
+  margin: 0;
+}
+header .wrapper4 li {
+  list-style: none;
+  text-align: center;
+  border: 1px solid white;
+  padding-left: 0;
+  padding: 8px;
+}
+header .wrapper4 li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+header .wrapper4 li:first-child {
+  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */

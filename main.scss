@@ -106,4 +106,29 @@ header{
     height: 44px;
     text-align: center;
   }
+  .wrapper4{
+    display: flex;
+    justify-content: center;
+    ol{
+      width: 95%;
+      padding-inline-start: 0px;
+      margin: 0;
+    }
+    li{
+      list-style: none;
+      text-align: center;
+      border: 1px solid white;
+      padding-left: 0;
+      padding: 8px;
+      a{
+        text-decoration: none;
+        color: white;
+        font-weight: 100;
+        font-size: 0.9rem;
+      }
+    }
+    li:first-child{
+      margin-top:0;
+    }
+  }
 }
