@@ -10,6 +10,12 @@ footer{
     background-image: url(./resources/bg.jpg);
     background-size: cover;
     background-position: center;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   .overlay{
     height: 100%;
@@ -18,7 +24,7 @@ footer{
     background-size: cover;
     background-position: center;
     position: fixed;
-    z-index: 12;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
