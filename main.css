@@ -27,18 +27,28 @@ footer .overlay {
   right: 0;
   bottom: 0;
 }
+footer .coloroverlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.501);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 header {
   font-family: "Roboto";
   height: 100vh;
 }
 header div.gem {
-  height: 26.5%;
+  height: 25%;
   position: relative;
-  top: 9%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 header div.gem span {
   width: 3.5rem;
@@ -92,6 +102,7 @@ header .container p {
 }
 header .container a {
   text-decoration-style: dotted;
+  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   text-decoration-color: rgba(255, 255, 255, 0.689);
   color: white;
@@ -151,7 +162,6 @@ header .wrapper4 li:first-child {
   }
   header div.gem {
     height: 38%;
-    top: -1%;
     align-items: flex-end;
   }
   header div.gem span {
