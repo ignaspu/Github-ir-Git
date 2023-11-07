@@ -163,6 +163,9 @@ header .wrapper4 li:first-child {
     display: inline-block;
     width: 10rem;
   }
+  header .wrapper4 ol li:hover {
+    background-color: rgba(255, 255, 255, 0.252);
+  }
   header div.gem {
     height: 38%;
     align-items: flex-end;
